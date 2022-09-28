@@ -9,12 +9,18 @@
         table,tr,th,td{
             border: 2px solid black;
             border-collapse: collapse;
+            column-width: 50px;
         }
     </style>
 </head>
 <body>
     <table>
-       
+       <tr><th rowspan="2">A</th><th colspan="2">B</th><th rowspan="2">C</th></tr>
+       <tr><th rowspan="2">D</th><th>E</th></tr>
+       <tr><th>F</th><th colspan="2"><a href="https://www.w3schools.com/php/">G</a></th></tr>
+       <tr><th rowspan="3">H</th><th colspan="2" rowspan="2"> <a href="https://4.bp.blogspot.com/-_mvArckgaVg/TeRoYxI8EPI/AAAAAAAAC28/5OXP-yL6wqQ/s1600/Beautiful+Flowers+1+%25284%2529.jpg">I</a></th><th>J</th></tr>
+       <tr><th>K</th></tr>
+       <tr><th>L</th><th colspan="2">M</th></tr>
     </table>
 </body>
-</html> 
+</html>
