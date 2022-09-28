@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+    width: 50%;
+    
+}
+h1{
+    color: brown;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table,tr,th,td{
+    border: 2px white;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px ;
+    column-width: 5px;
+}
+th{
+    background-color:chartreuse;
+}
+tr{
+    background-color:darkolivegreen;
+}
+a{
+    text-decoration: none;
+}
